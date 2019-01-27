@@ -2,5 +2,5 @@ spring:
   datasource:
     url:  jdbc:mysql://${MYSQL_SERVICE_HOST}:${MYSQL_SERVICE_HOST}/${ENV_DATABASE}
     username: ${ENV_USER}
-    password: ${EMV_PASSWORD}
+    password: ${ENV_PASSWORD}
     driverClassName: com.mysql.jdbc.Driver
